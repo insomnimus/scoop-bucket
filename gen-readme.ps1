@@ -1,10 +1,8 @@
-$SelfApps = get-content -ea SilentlyContinue $PSScriptRoot/self-apps.txt
-
 $manifests = get-childitem -file "$PSScriptRoot/bucket/*.json" | foreach-object {
 	$data = get-content $_.fullname -ea silentlyContinue | convertfrom-json -AsHashTable -ea silentlyContinue
 	if($data) {
 		$data.name = $_.basename
-		$data.self = $selfApps -contains $_.basename
+		$data.self = $data.homepage.startswith("https://github.com/insomnimus/")
 		$data
 	}
 }
