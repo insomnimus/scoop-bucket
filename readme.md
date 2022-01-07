@@ -1,6 +1,8 @@
 # Insomnia's Scoop Bucket
 Mainly contains development tools.
 
+Updated every hour.
+
 # Add the Bucket to Scoop
 ```powershell
 scoop bucket add insomnia https://github.com/insomnimus/scoop-bucket
