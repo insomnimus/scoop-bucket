@@ -9,7 +9,8 @@
       "hash": "0e6a8d050b1210870aea4191bab6400c18efcaa85829ba6f7a33ffa8ac559136"
     },
     "32bit": {
-      "url": "https://github.com/dominikh/go-tools/releases/download/2021.1.2/staticcheck_windows_386.tar.gz#/staticcheck.tar.gz"
+      "url": "https://github.com/dominikh/go-tools/releases/download/2021.1.2/staticcheck_windows_386.tar.gz#/staticcheck.tar.gz",
+      "hash": "b3348908ecc1b7985b1eefd544331d7514e42eabf7e740c5bc3534059dbe0a42"
     }
   },
   "bin": "staticcheck.exe",

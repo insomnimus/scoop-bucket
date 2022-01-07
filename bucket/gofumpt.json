@@ -5,10 +5,12 @@
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/mvdan/gofumpt/releases/download/v0.2.1/gofumpt_v0.2.1_windows_amd64.exe#/gofumpt.exe"
+      "url": "https://github.com/mvdan/gofumpt/releases/download/v0.2.1/gofumpt_v0.2.1_windows_amd64.exe#/gofumpt.exe",
+      "hash": "9e094e038a8e301913ba2f3c77df8fad72ab4571c16dd49712f9ab9eb2a6d2ad"
     },
     "32bit": {
-      "url": "https://github.com/mvdan/gofumpt/releases/download/v0.2.1/gofumpt_v0.2.1_windows_386.exe#/gofumpt.exe"
+      "url": "https://github.com/mvdan/gofumpt/releases/download/v0.2.1/gofumpt_v0.2.1_windows_386.exe#/gofumpt.exe",
+      "hash": "f208c2b0de508694fd6b9db3294394c34f49ac111477c6a7fd90e7b932b00491"
     }
   },
   "bin": "gofumpt.exe",
