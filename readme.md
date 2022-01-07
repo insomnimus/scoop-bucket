@@ -9,7 +9,8 @@ scoop bucket add insomnia https://github.com/insomnimus/scoop-bucket
 ```
 
 # Apps
-Please check out [the bucket directory](bucket).
+Apps authored by me are prefixed with a `~`.
 
-# Disclaimer
-I do not own every app in this bucket.
+-	[gofumpt(https://github.com/mvdan/gofumpt): A stricter gofmt.
+-	~[rust-docs(https://github.com/insomnimus/ps-rust-docs): A powershell module to open local rust docs conveniently.
+-	[staticcheck(https://github.com/dominikh/go-tools): An advanced go linter.
