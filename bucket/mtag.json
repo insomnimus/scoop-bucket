@@ -1,6 +1,6 @@
 {
   "version": "0.5.1",
-  "description": "A MIDI note viewer and player. Designed to be accessible.",
+  "description": "A command line mpeg-4 metadata editor.",
   "homepage": "https://github.com/insomnimus/mtag",
   "license": "MIT",
   "architecture": {
