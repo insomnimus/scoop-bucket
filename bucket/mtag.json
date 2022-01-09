@@ -1,0 +1,28 @@
+{
+  "version": "0.5.1",
+  "description": "A MIDI note viewer and player. Designed to be accessible.",
+  "homepage": "https://github.com/insomnimus/mtag",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/insomnimus/mtag/releases/download/v0.5.1/mtag-x86_64-windows.zip",
+      "hash": "2fd4e8ad6d95d5a4b8edd55f1ae72462ccf7034b991f6ddca8791c2f14192663"
+    },
+    "32bit": {
+      "url": "https://github.com/insomnimus/mtag/releases/download/v0.5.1/mtag-i686-windows.zip",
+      "hash": "b43811caa337cd875fec007ddad77a1c6ed5cdf5fe2599d616bfdc109daac75f"
+    }
+  },
+  "bin": "mtag.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/insomnimus/mtag/releases/download/v$version/mtag-x86_64-windows.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/insomnimus/mtag/releases/download/v$version/mtag-i686-windows.zip"
+      }
+    }
+  }
+}
