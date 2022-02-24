@@ -11,6 +11,7 @@ scoop bucket add insomnia https://github.com/insomnimus/scoop-bucket
 # Apps
 Apps authored by me are prefixed with a `~`.
 
+-	[cargo-udeps](https://github.com/est31/cargo-udeps): Find unused dependencies in Cargo.toml.
 -	[gofumpt](https://github.com/mvdan/gofumpt): A stricter gofmt.
 -	~[midnote](https://github.com/insomnimus/midnote): A MIDI note viewer and player. Designed to be accessible.
 -	~[mtag](https://github.com/insomnimus/mtag): A command line mpeg-4 metadata editor.
