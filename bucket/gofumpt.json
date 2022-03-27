@@ -1,28 +1,28 @@
 {
-  "version": "0.3.0",
-  "description": "A stricter gofmt.",
-  "homepage": "https://github.com/mvdan/gofumpt",
-  "license": "BSD-3-Clause",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/mvdan/gofumpt/releases/download/v0.3.0/gofumpt_v0.3.0_windows_amd64.exe#/gofumpt.exe",
-      "hash": "153e5993a4321795eff439b6282ee4e995251f5ad0f6f04094be1d4a2317bb11"
-    },
-    "32bit": {
-      "url": "https://github.com/mvdan/gofumpt/releases/download/v0.3.0/gofumpt_v0.3.0_windows_386.exe#/gofumpt.exe",
-      "hash": "10a46019f0bae84272bd188596696f82c6421e433410933cfd80fb5e9328f033"
-    }
-  },
-  "bin": "gofumpt.exe",
-  "checkver": "github",
-  "autoupdate": {
+    "version": "0.3.1",
+    "description": "A stricter gofmt.",
+    "homepage": "https://github.com/mvdan/gofumpt",
+    "license": "BSD-3-Clause",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/mvdan/gofumpt/releases/download/v$version/gofumpt_v${version}_windows_amd64.exe"
-      },
-      "32bit": {
-        "url": "https://github.com/mvdan/gofumpt/releases/download/v$version/gofumpt_v${version}_windows_386.exe"
-      }
+        "64bit": {
+            "url": "https://github.com/mvdan/gofumpt/releases/download/v0.3.1/gofumpt_v0.3.1_windows_amd64.exe",
+            "hash": "7cee82f8f2983af18c0b609120768a7cf149c3319467b8bbcf105a6c326d2148"
+        },
+        "32bit": {
+            "url": "https://github.com/mvdan/gofumpt/releases/download/v0.3.1/gofumpt_v0.3.1_windows_386.exe",
+            "hash": "f7facb63e3902f8f1f4b67e48975e3d466519d8ff9d76002412c5a773cef0929"
+        }
+    },
+    "bin": "gofumpt.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mvdan/gofumpt/releases/download/v$version/gofumpt_v$version_windows_amd64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/mvdan/gofumpt/releases/download/v$version/gofumpt_v$version_windows_386.exe"
+            }
+        }
     }
-  }
 }
