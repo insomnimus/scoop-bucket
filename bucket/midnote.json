@@ -1,28 +1,31 @@
 {
-    "version": "0.10.6",
-    "description": "A MIDI note viewer and player. Designed to be accessible.",
-    "homepage": "https://github.com/insomnimus/midnote",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/insomnimus/midnote/releases/download/v0.10.6/midnote-x86_64-windows.zip",
-            "hash": "58f3ea5c9bf5270eb3c930252ff4fc5ef83e8cd04adab72ce9a9fe82e98896c1"
-        },
-        "32bit": {
-            "url": "https://github.com/insomnimus/midnote/releases/download/v0.10.6/midnote-i686-windows.zip",
-            "hash": "5e4049ba58a816559e0a512468db4ae13051cd53b849b17ee12ecfc034ce6d04"
-        }
+  "version": "0.10.6",
+  "description": "A command line MIDI note viewer and player. Designed to be accessible.",
+  "homepage": "https://github.com/insomnimus/midnote",
+  "license": "MIT",
+  "suggest": {
+    "plmidi": "plmidi"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/insomnimus/midnote/releases/download/v0.10.6/midnote-x86_64-windows.zip",
+      "hash": "58f3ea5c9bf5270eb3c930252ff4fc5ef83e8cd04adab72ce9a9fe82e98896c1"
     },
-    "bin": "midnote.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/insomnimus/midnote/releases/download/v$version/midnote-x86_64-windows.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/insomnimus/midnote/releases/download/v$version/midnote-i686-windows.zip"
-            }
-        }
+    "32bit": {
+      "url": "https://github.com/insomnimus/midnote/releases/download/v0.10.6/midnote-i686-windows.zip",
+      "hash": "5e4049ba58a816559e0a512468db4ae13051cd53b849b17ee12ecfc034ce6d04"
     }
+  },
+  "bin": "midnote.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/insomnimus/midnote/releases/download/v$version/midnote-x86_64-windows.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/insomnimus/midnote/releases/download/v$version/midnote-i686-windows.zip"
+      }
+    }
+  }
 }
