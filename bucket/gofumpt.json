@@ -3,13 +3,16 @@
     "description": "A stricter gofmt.",
     "homepage": "https://github.com/mvdan/gofumpt",
     "license": "BSD-3-Clause",
+    "suggest": {
+        "go": "go"
+    },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mvdan/gofumpt/releases/download/v0.3.1/gofumpt_v0.3.1_windows_amd64.exe",
+            "url": "https://github.com/mvdan/gofumpt/releases/download/v0.3.1/gofumpt_v0.3.1_windows_amd64.exe#/gofumpt.exe",
             "hash": "7cee82f8f2983af18c0b609120768a7cf149c3319467b8bbcf105a6c326d2148"
         },
         "32bit": {
-            "url": "https://github.com/mvdan/gofumpt/releases/download/v0.3.1/gofumpt_v0.3.1_windows_386.exe",
+            "url": "https://github.com/mvdan/gofumpt/releases/download/v0.3.1/gofumpt_v0.3.1_windows_386.exe#/gofumpt.exe",
             "hash": "f7facb63e3902f8f1f4b67e48975e3d466519d8ff9d76002412c5a773cef0929"
         }
     },
@@ -18,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mvdan/gofumpt/releases/download/v$version/gofumpt_v$version_windows_amd64.exe"
+                "url": "https://github.com/mvdan/gofumpt/releases/download/v$version/gofumpt_v$version_windows_amd64.exe#/gofumpt.exe"
             },
             "32bit": {
-                "url": "https://github.com/mvdan/gofumpt/releases/download/v$version/gofumpt_v$version_windows_386.exe"
+                "url": "https://github.com/mvdan/gofumpt/releases/download/v$version/gofumpt_v$version_windows_386.exe#/gofumpt.exe"
             }
         }
     }
