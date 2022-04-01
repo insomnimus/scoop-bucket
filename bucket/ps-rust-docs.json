@@ -1,16 +1,16 @@
 {
-  "version": "0.3.4",
-  "description": "A powershell module to open local rust docs conveniently.",
-  "homepage": "https://github.com/insomnimus/ps-rust-docs",
-  "license": "MIT",
-  "notes": "Restart powershell now to apply the install",
-  "url": "https://github.com/insomnimus/ps-rust-docs/releases/download/v0.3.4/rust-docs.zip",
-  "hash": "7d2c3729f189471802d76618afa7a4b293146c28ad9b00db511b997245cdeb74",
-  "psmodule": {
-    "name": "rust-docs"
-  },
-  "checkver": "github",
-  "autoupdate": {
-    "url": "https://github.com/insomnimus/ps-rust-docs/releases/download/v$version/rust-docs.zip"
-  }
+    "version": "0.5.0",
+    "description": "A powershell module to open local rust docs conveniently.",
+    "homepage": "https://github.com/insomnimus/ps-rust-docs",
+    "license": "MIT",
+    "notes": "Restart powershell now to apply the install",
+    "url": "https://github.com/insomnimus/ps-rust-docs/releases/download/v0.5.0/rust-docs.zip",
+    "hash": "07f4081ed680604116f1b96f83d435a7475aa824f13cd93e05c6adba0da9d63c",
+    "psmodule": {
+        "name": "rust-docs"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/insomnimus/ps-rust-docs/releases/download/v$version/rust-docs.zip"
+    }
 }
