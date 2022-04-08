@@ -1,31 +1,31 @@
 {
-  "version": "0.9.6",
-  "description": "Command line MIDI player.",
-  "homepage": "https://github.com/insomnimus/plmidi",
-  "license": "MIT",
-  "suggest": {
-    "midnote": "midnote"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/insomnimus/plmidi/releases/download/v0.9.6/plmidi-x86_64-windows.zip",
-      "hash": "78a976a49d0ebea984c5de1062462519551bf3298926591d640046d06c9096f7"
+    "version": "0.9.8",
+    "description": "Command line MIDI player.",
+    "homepage": "https://github.com/insomnimus/plmidi",
+    "license": "MIT",
+    "suggest": {
+        "midnote": "midnote"
     },
-    "32bit": {
-      "url": "https://github.com/insomnimus/plmidi/releases/download/v0.9.6/plmidi-i686-windows.zip",
-      "hash": "13bceded1d09cb601f894e191a3ecf4e3efb5f59b92577bdae5f8593f3070973"
-    }
-  },
-  "bin": "plmidi.exe",
-  "checkver": "github",
-  "autoupdate": {
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/insomnimus/plmidi/releases/download/v$version/plmidi-x86_64-windows.zip"
-      },
-      "32bit": {
-        "url": "https://github.com/insomnimus/plmidi/releases/download/v$version/plmidi-i686-windows.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/insomnimus/plmidi/releases/download/v0.9.8/plmidi-x86_64-windows.zip",
+            "hash": "11e93aea6230da6130526e6d3f639e88f621951ecb72327a02c56215336f68ee"
+        },
+        "32bit": {
+            "url": "https://github.com/insomnimus/plmidi/releases/download/v0.9.8/plmidi-i686-windows.zip",
+            "hash": "ffa9c18b2d783c4ca1c3df6c32ea77780829e9ae4b446220d08463cc5df11471"
+        }
+    },
+    "bin": "plmidi.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/insomnimus/plmidi/releases/download/v$version/plmidi-x86_64-windows.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/insomnimus/plmidi/releases/download/v$version/plmidi-i686-windows.zip"
+            }
+        }
     }
-  }
 }
