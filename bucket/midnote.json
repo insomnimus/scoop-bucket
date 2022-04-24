@@ -1,5 +1,5 @@
 {
-    "version": "0.10.7",
+    "version": "0.11.0",
     "description": "A command line MIDI note viewer and player. Designed to be accessible.",
     "homepage": "https://github.com/insomnimus/midnote",
     "license": "MIT",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/insomnimus/midnote/releases/download/v0.10.7/midnote-x86_64-windows.zip",
-            "hash": "1bcedcc44e8eb2727b995f0ea6a0452ab15d9e9357b9548df23155da1931bbd8"
+            "url": "https://github.com/insomnimus/midnote/releases/download/v0.11.0/midnote-x86_64-windows.zip",
+            "hash": "01a0fd70abf0ca1b1abef9b90689494a8bfcaf5914685d205791792ca5b10edf"
         },
         "32bit": {
-            "url": "https://github.com/insomnimus/midnote/releases/download/v0.10.7/midnote-i686-windows.zip",
-            "hash": "cb2619c03761742f3619628e233f3bb742e7006860f4523aab4c0edbe5ea38aa"
+            "url": "https://github.com/insomnimus/midnote/releases/download/v0.11.0/midnote-i686-windows.zip",
+            "hash": "2e8c43df4d41817881e8b83e40e20858c93023ce6a05a8753a143b58952caf5f"
         }
     },
     "bin": "midnote.exe",
