@@ -1,0 +1,16 @@
+{
+	"version": "0.6.5",
+	"description": "Powershell directory environments - like direnv.",
+	"homepage": "https://github.com/insomnimus/ps-dotenv",
+	"license": "MIT",
+	"notes": "Add `Enable-Dotenv` in your Powershell profile to activate Dotenv",
+	"url": "https://github.com/insomnimus/ps-dotenv/releases/download/v0.6.5/Dotenv.zip",
+	"hash": "10e3ba59281c559f81f65e28c32022c2b0a3a018a337db57d7263a62864e393b",
+	"psmodule": {
+		"name": "Dotenv"
+	},
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/insomnimus/ps-dotenv/releases/download/v$version/Dotenv.zip"
+	}
+}

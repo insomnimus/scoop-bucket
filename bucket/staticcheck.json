@@ -1,32 +1,32 @@
 {
-    "version": "2022.1.2",
-    "description": "An advanced go linter.",
-    "homepage": "https://github.com/dominikh/go-tools",
-    "license": "MIT",
-    "suggest": {
-        "go": "go"
-    },
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/dominikh/go-tools/releases/download/2022.1.2/staticcheck_windows_amd64.tar.gz",
-            "hash": "49cf38cb52abc47e36a573d2926ab5dfd15fa5ea3b4331b39d675c1b5a2f964f"
-        },
-        "32bit": {
-            "url": "https://github.com/dominikh/go-tools/releases/download/2022.1.2/staticcheck_windows_386.tar.gz",
-            "hash": "86361cd558b2b3838c65fe6f99d7bb7351bffca6e97a58fef8241acd8d7d0287"
-        }
-    },
-    "bin": "staticcheck.exe",
-    "extract_dir": "staticcheck",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/dominikh/go-tools/releases/download/$version/staticcheck_windows_amd64.tar.gz"
-            },
-            "32bit": {
-                "url": "https://github.com/dominikh/go-tools/releases/download/$version/staticcheck_windows_386.tar.gz"
-            }
-        }
-    }
+	"version": "2022.1.2",
+	"description": "An advanced go linter.",
+	"homepage": "https://github.com/dominikh/go-tools",
+	"license": "MIT",
+	"suggest": {
+		"go": "go"
+	},
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/dominikh/go-tools/releases/download/2022.1.2/staticcheck_windows_amd64.tar.gz",
+			"hash": "49cf38cb52abc47e36a573d2926ab5dfd15fa5ea3b4331b39d675c1b5a2f964f"
+		},
+		"32bit": {
+			"url": "https://github.com/dominikh/go-tools/releases/download/2022.1.2/staticcheck_windows_386.tar.gz",
+			"hash": "86361cd558b2b3838c65fe6f99d7bb7351bffca6e97a58fef8241acd8d7d0287"
+		}
+	},
+	"bin": "staticcheck.exe",
+	"extract_dir": "staticcheck",
+	"checkver": "github",
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/dominikh/go-tools/releases/download/$version/staticcheck_windows_amd64.tar.gz"
+			},
+			"32bit": {
+				"url": "https://github.com/dominikh/go-tools/releases/download/$version/staticcheck_windows_386.tar.gz"
+			}
+		}
+	}
 }

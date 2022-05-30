@@ -1,32 +1,32 @@
 {
-  "version": "0.3.1",
-  "description": "NTFS link tools.",
-  "homepage": "https://github.com/insomnimus/wink",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/insomnimus/wink/releases/download/v0.3.1/wink-x64.zip",
-      "hash": "9aab09796cd6c3840075759dbe2c846098ee5ee6992738dd1a200a99d172ea49"
-    },
-    "32bit": {
-      "url": "https://github.com/insomnimus/wink/releases/download/v0.3.1/wink-x32.zip",
-      "hash": "7a99d521e0f31ab3a41bd55204cbbbb5aaf30a69f2405e93266e3f0a9a2ef8c0"
-    }
-  },
-  "bin": [
-    "ln.exe",
-    "linfo.exe",
-    "rmlink.exe"
-  ],
-  "checkver": "github",
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://github.com/insomnimus/wink/releases/download/v$version/wink-x64.zip"
-      },
-      "32bit": {
-        "url": "https://github.com/insomnimus/wink/releases/download/v$version/wink-x32.zip"
-      }
-    }
-  }
+	"version": "0.3.1",
+	"description": "NTFS link tools.",
+	"homepage": "https://github.com/insomnimus/wink",
+	"license": "MIT",
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/insomnimus/wink/releases/download/v0.3.1/wink-x64.zip",
+			"hash": "9aab09796cd6c3840075759dbe2c846098ee5ee6992738dd1a200a99d172ea49"
+		},
+		"32bit": {
+			"url": "https://github.com/insomnimus/wink/releases/download/v0.3.1/wink-x32.zip",
+			"hash": "7a99d521e0f31ab3a41bd55204cbbbb5aaf30a69f2405e93266e3f0a9a2ef8c0"
+		}
+	},
+	"bin": [
+		"ln.exe",
+		"linfo.exe",
+		"rmlink.exe"
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/insomnimus/wink/releases/download/v$version/wink-x64.zip"
+			},
+			"32bit": {
+				"url": "https://github.com/insomnimus/wink/releases/download/v$version/wink-x32.zip"
+			}
+		}
+	}
 }
