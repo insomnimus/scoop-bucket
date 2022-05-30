@@ -1,7 +1,7 @@
 # Insomnia's Scoop Bucket
 Mainly contains development tools.
 
-Updated every hour.
+Updated everyday.
 
 # Add the Bucket to Scoop
 ```powershell
