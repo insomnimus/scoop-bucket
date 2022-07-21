@@ -1,16 +1,16 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "NTFS link tools.",
     "homepage": "https://github.com/insomnimus/wink",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/insomnimus/wink/releases/download/v0.3.2/wink-x64.zip",
-            "hash": "76413df61821eb3fef00b4e5ac5d8d66801e5b6e68426b7cff06b7552c2bd96a"
+            "url": "https://github.com/insomnimus/wink/releases/download/v0.3.3/wink-x64.zip",
+            "hash": "5599818bcb5c024a8172948011e4eb4ed934f59464fea0e6d7c435b86ae4c151"
         },
         "32bit": {
-            "url": "https://github.com/insomnimus/wink/releases/download/v0.3.2/wink-x32.zip",
-            "hash": "ca8a1358d5a8787a33c04d57110ddb698c42ffe2ac69fd8e7b82be346fc3e58f"
+            "url": "https://github.com/insomnimus/wink/releases/download/v0.3.3/wink-x32.zip",
+            "hash": "5999be1a3ad593c3c8e71996adf300cc98ec5e45ec7294554dae2c27af741b81"
         }
     },
     "bin": [
