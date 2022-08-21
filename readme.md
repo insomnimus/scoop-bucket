@@ -17,6 +17,7 @@ Apps authored by me are prefixed with a `~`.
 -	[ouch](https://github.com/ouch-org/ouch): Painless compression and decompression for your terminal.
 -	~[plmidi](https://github.com/insomnimus/plmidi): Command line MIDI player.
 -	~[ps-dotenv](https://github.com/insomnimus/ps-dotenv): Powershell directory environments - like direnv.
+-	~[ps-mpd](https://github.com/insomnimus/ps-mpd): A Powershell module for the Music Player Daemon (MPD)
 -	~[ps-rust-docs](https://github.com/insomnimus/ps-rust-docs): A powershell module to open local rust docs conveniently.
 -	[staticcheck](https://github.com/dominikh/go-tools): An advanced go linter.
 -	~[wink](https://github.com/insomnimus/wink): NTFS link tools.
