@@ -20,4 +20,5 @@ Apps authored by me are prefixed with a `~`.
 -	~[ps-mpd](https://github.com/insomnimus/ps-mpd): A Powershell module for the Music Player Daemon (MPD)
 -	~[ps-rust-docs](https://github.com/insomnimus/ps-rust-docs): A powershell module to open local rust docs conveniently.
 -	[staticcheck](https://github.com/dominikh/go-tools): An advanced go linter.
+-	~[wh](https://github.com/insomnimus/wh): Enhanced GNalternative to GNU which.
 -	~[wink](https://github.com/insomnimus/wink): NTFS link tools.
