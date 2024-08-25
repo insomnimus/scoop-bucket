@@ -21,3 +21,4 @@ Apps authored by me are prefixed with a `~`.
 -	[staticcheck](https://github.com/dominikh/go-tools): An advanced go linter.
 -	~[wh](https://github.com/insomnimus/wh): Enhanced alternative to GNU which.
 -	~[wink](https://github.com/insomnimus/wink): NTFS link tools.
+-	~[wol](https://github.com/insomnimus/wol): Control Windows system sound levels from the command line
